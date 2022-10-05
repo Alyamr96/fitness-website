@@ -9,6 +9,8 @@ import Pricing from "./components/pricing/Pricing";
 import Trainers from "./components/trainers/Trainers";
 import Banner from "./components/banner/Banner";
 import Reviews from "./components/reviews/Reviews";
+import Blog from "./components/blogs/Blog";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
       <Trainers />
       <Banner />
       <Reviews />
+      <Blog />
+      <Footer />
     </div>
   );
 }
