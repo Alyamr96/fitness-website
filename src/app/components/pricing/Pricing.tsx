@@ -33,9 +33,9 @@ export default function Pricing() {
       </div>
 
       <div className="plan basic">
-        <h3>basic plan</h3>
+        <h3>2 month plan</h3>
         <div className="price">
-          <span>$</span>30<span>/mo</span>
+          <span>EGP</span>5000<span></span>
         </div>
         <div className="list">
           <p>
@@ -65,9 +65,9 @@ export default function Pricing() {
       </div>
 
       <div className="plan">
-        <h3>premium plan</h3>
+        <h3>3 month plan</h3>
         <div className="price">
-          <span>$</span>90<span>/mo</span>
+          <span>EGP</span>6000<span></span>
         </div>
         <div className="list">
           <p>

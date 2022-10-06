@@ -1,10 +1,6 @@
 import React from "react";
 import "./Blog.css";
 import Blog1 from "../../../images/blog-1.jpg";
-import Blog2 from "../../../images/blog-2.jpg";
-import Blog3 from "../../../images/blog-3.jpg";
-import Blog4 from "../../../images/blog-4.jpg";
-import Blog5 from "../../../images/blog-5.jpg";
 
 export default function Blog() {
   return (
