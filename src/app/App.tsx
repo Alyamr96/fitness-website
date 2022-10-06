@@ -21,11 +21,10 @@ function App() {
       <About />
       <Features />
       <Pricing />
-      <Trainers />
       <Banner />
       <Reviews />
       <Blog />
-      <Footer />
+      <Footer />*
     </div>
   );
 }

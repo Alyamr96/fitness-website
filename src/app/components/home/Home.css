@@ -4,8 +4,9 @@
 }
 
 .home .slide {
-  min-height: 70vh;
-  background-size: cover !important;
+  margin-top: 4rem;
+  min-height: 100vh;
+  background-size: 100% 100% !important;
   background-position: center !important;
   padding: 2rem 9%;
   display: -webkit-box;
@@ -14,7 +15,7 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background: url(../../../images/transformation.jpg) no-repeat;
+  background: url(../../../images/home-bg-1.jpg) no-repeat;
 }
 
 .home .slide .content {

@@ -1,5 +1,5 @@
 import React from "react";
-import AboutImage from "../../../images/ammar-beach.jpg";
+import AboutImage from "../../../images/ammar-background.jpg";
 import "./About.css";
 
 export default function About() {

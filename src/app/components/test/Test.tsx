@@ -1,17 +1,18 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import "./Test.css";
-import Verified from "../../../images/verified.jpg";
 
 export default function Test() {
   return (
-    <>
-      <div className="icon">
-        <img src={Verified} alt="verified-icon" className="verified-icon" />
+    <section className="home" id="home">
+      <div className="slide">
+        <div className="content">
+          <span>be strong, be fit</span>
+          <h3>Make yourself stronger than your excuses.</h3>
+          <a href="#" className="btn">
+            get started
+          </a>
+        </div>
       </div>
-      <div className="slogan">
-        <span>#AMMARIFIED</span>
-      </div>
-    </>
+    </section>
   );
 }
