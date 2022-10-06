@@ -17,14 +17,27 @@
   background: #000;
 }
 
-.header .logo {
+.header .logo-slogan .icon {
+  width: 23rem;
+  height: 1.5rem;
+}
+
+.header .logo-slogan .icon .verified-icon {
+  height: 2rem;
+  width: 2rem;
+  float: right;
+}
+
+.header .logo-slogan .slogan {
+  border-style: solid;
+  border-color: white;
+  width: 22rem;
+}
+
+.header .logo-slogan .slogan span {
   font-weight: bolder;
   color: #fff;
   font-size: 3rem;
-}
-
-.header .logo span {
-  color: #f00;
 }
 
 .header .navbar a {

@@ -1,0 +1,22 @@
+.icon {
+  width: 23rem;
+  height: 1.5rem;
+}
+
+.icon .verified-icon {
+  height: 2rem;
+  width: 2rem;
+  float: right;
+}
+
+.slogan {
+  border-style: solid;
+  border-color: white;
+  width: 22rem;
+}
+
+.slogan span {
+  font-weight: bolder;
+  color: #fff;
+  font-size: 3rem;
+}

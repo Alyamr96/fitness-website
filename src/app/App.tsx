@@ -11,6 +11,7 @@ import Banner from "./components/banner/Banner";
 import Reviews from "./components/reviews/Reviews";
 import Blog from "./components/blogs/Blog";
 import Footer from "./components/footer/Footer";
+import Test from "./components/test/Test";
 
 function App() {
   return (

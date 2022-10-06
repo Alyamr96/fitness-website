@@ -1,13 +1,18 @@
 import React from "react";
 import "./Header.css";
+import Verified from "../../../images/verified.jpg";
 
 export default function Header() {
   return (
     <header className="header">
-      <a href="#" className="logo">
-        {" "}
-        <span>BE</span>FIT{" "}
-      </a>
+      <div className="logo-slogan">
+        <div className="icon">
+          <img src={Verified} alt="verified-icon" className="verified-icon" />
+        </div>
+        <div className="slogan">
+          <span>#AMMARIFIED</span>
+        </div>
+      </div>
 
       <div id="menu-btn" className="fas fa-bars"></div>
 
