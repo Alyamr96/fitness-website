@@ -8,7 +8,7 @@
 
 .pricing .information span {
   font-size: 2rem;
-  color: #f00;
+  color: #87c1ff;
 }
 
 .pricing .information h3 {
@@ -26,7 +26,7 @@
 
 .pricing .information p i {
   padding-right: 1rem;
-  color: #f00;
+  color: #87c1ff;
 }
 
 .pricing .plan {
@@ -47,7 +47,7 @@
 .pricing .plan .price {
   font-size: 5rem;
   font-weight: bolder;
-  color: #f00;
+  color: #87c1ff;
 }
 
 .pricing .plan .price span {
@@ -68,5 +68,5 @@
 
 .pricing .plan .list p i {
   padding-right: 1rem;
-  color: #f00;
+  color: #87c1ff;
 }

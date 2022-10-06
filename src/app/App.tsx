@@ -24,7 +24,7 @@ function App() {
       <Banner />
       <Reviews />
       <Blog />
-      <Footer />*
+      <Footer />
     </div>
   );
 }

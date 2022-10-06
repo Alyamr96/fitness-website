@@ -11,112 +11,29 @@ export default function Blog() {
     <section className="blogs" id="blogs">
       <h1 className="heading">
         {" "}
-        <span>daily posts</span>{" "}
+        <span>posts</span>{" "}
       </h1>
-      <div className="swiper blogs-slider">
-        <div className="swiper-wrapper">
-          <div className="swiper-slide slide">
-            <div className="image">
-              <img src={Blog1} alt="" />
-            </div>
-            <div className="content">
-              <div className="link">
-                {" "}
-                <a href="#">by user</a> <span>|</span>{" "}
-                <a href="#">21st may, 2021</a>{" "}
-              </div>
-              <h3>fitness is not about being better than someone else</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Aliquam, tenetur?
-              </p>
-              <a href="#" className="btn">
-                read more
-              </a>
-            </div>
+      <div className="swiper-wrapper">
+        <div className="swiper-slide slide">
+          <div className="image">
+            <img src={Blog1} alt="" />
           </div>
-          <div className="swiper-slide slide">
-            <div className="image">
-              <img src={Blog2} alt="" />
+          <div className="content">
+            <div className="link">
+              {" "}
+              <a href="#">by user</a> <span>|</span>{" "}
+              <a href="#">21st may, 2021</a>{" "}
             </div>
-            <div className="content">
-              <div className="link">
-                {" "}
-                <a href="#">by user</a> <span>|</span>{" "}
-                <a href="#">21st may, 2021</a>{" "}
-              </div>
-              <h3>fitness is not about being better than someone else</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Aliquam, tenetur?
-              </p>
-              <a href="#" className="btn">
-                read more
-              </a>
-            </div>
-          </div>
-          <div className="swiper-slide slide">
-            <div className="image">
-              <img src={Blog3} alt="" />
-            </div>
-            <div className="content">
-              <div className="link">
-                {" "}
-                <a href="#">by user</a> <span>|</span>{" "}
-                <a href="#">21st may, 2021</a>{" "}
-              </div>
-              <h3>fitness is not about being better than someone else</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Aliquam, tenetur?
-              </p>
-              <a href="#" className="btn">
-                read more
-              </a>
-            </div>
-          </div>
-          <div className="swiper-slide slide">
-            <div className="image">
-              <img src={Blog4} alt="" />
-            </div>
-            <div className="content">
-              <div className="link">
-                {" "}
-                <a href="#">by user</a> <span>|</span>{" "}
-                <a href="#">21st may, 2021</a>{" "}
-              </div>
-              <h3>fitness is not about being better than someone else</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Aliquam, tenetur?
-              </p>
-              <a href="#" className="btn">
-                read more
-              </a>
-            </div>
-          </div>
-          <div className="swiper-slide slide">
-            <div className="image">
-              <img src={Blog5} alt="" />
-            </div>
-            <div className="content">
-              <div className="link">
-                {" "}
-                <a href="#">by user</a> <span>|</span>{" "}
-                <a href="#">21st may, 2021</a>{" "}
-              </div>
-              <h3>fitness is not about being better than someone else</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Aliquam, tenetur?
-              </p>
-              <a href="#" className="btn">
-                read more
-              </a>
-            </div>
+            <h3>fitness is not about being better than someone else</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam,
+              tenetur?
+            </p>
+            <a href="#" className="btn">
+              read more
+            </a>
           </div>
         </div>
-        <div className="swiper-pagination" />
       </div>
     </section>
   );

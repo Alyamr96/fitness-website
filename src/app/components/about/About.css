@@ -22,7 +22,7 @@
   content: "";
   position: absolute;
   z-index: -1;
-  background: #f00;
+  background: #87c1ff;
   height: 15rem;
   width: 15rem;
 }
@@ -50,7 +50,7 @@
 
 .about .content span {
   font-size: 2rem;
-  color: #f00;
+  color: #87c1ff;
 }
 
 .about .content .title {
@@ -89,5 +89,5 @@
 
 .about .content .box-container .box h3 i {
   padding-right: 1.5rem;
-  color: #f00;
+  color: #87c1ff;
 }

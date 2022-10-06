@@ -20,7 +20,7 @@
 }
 
 .footer .box-container .box .links:hover {
-  color: #f00;
+  color: #87c1ff;
 }
 
 .footer .box-container .box p {
@@ -31,7 +31,7 @@
 
 .footer .box-container .box p i {
   padding-right: 0.5rem;
-  color: #f00;
+  color: #87c1ff;
 }
 
 .footer .box-container .box .share {
@@ -51,7 +51,7 @@
 }
 
 .footer .box-container .box .share a:hover {
-  background: #f00;
+  background: #87c1ff;
 }
 
 .footer .box-container .box form .email {

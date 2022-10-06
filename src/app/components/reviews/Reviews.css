@@ -18,7 +18,7 @@
 
 .review .information span {
   font-size: 2rem;
-  color: #f00;
+  color: #87c1ff;
 }
 
 .review .information h3 {
@@ -76,7 +76,7 @@
 }
 
 .review .review-slider .slide .user span {
-  color: #f00;
+  color: #87c1ff;
   font-size: 1.5rem;
 }
 
@@ -84,5 +84,5 @@
   font-size: 5rem;
   margin-left: auto;
   margin-right: 2rem;
-  color: #f00;
+  color: #87c1ff;
 }
