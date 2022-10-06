@@ -18,10 +18,10 @@ function App() {
       <Home />
       <About />
       <Features />
-      <Pricing />
-      <Banner />
       <Reviews />
       <Blog />
+      <Banner />
+      <Pricing />
       <Footer />
     </div>
   );
