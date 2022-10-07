@@ -21,7 +21,7 @@ export default function Header() {
         <a href="#about">about</a>
         <a href="#features">features</a>
         <a href="#pricing">pricing</a>
-        <a href="#blogs">blogs</a>
+        <a href="#blogs">posts</a>
       </nav>
     </header>
   );
