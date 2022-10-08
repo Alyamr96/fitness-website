@@ -6,9 +6,9 @@ export default function Home() {
     <section className="home" id="home">
       <div className="slide">
         <div className="content">
-          <span>be strong, be fit</span>
-          <h3>Make yourself stronger than your excuses.</h3>
-          <a href="#" className="btn">
+          <span>look better, be stronger</span>
+          <h3>join the team and change your life</h3>
+          <a href="#pricing" className="btn">
             get started
           </a>
         </div>
