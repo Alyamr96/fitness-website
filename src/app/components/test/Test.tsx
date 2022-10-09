@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from "react";
-import "./Test1.css";
+import "./Test.css";
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
 import { sliderData } from "./sliderData";
 
@@ -19,38 +19,38 @@ export default function Test() {
     setCurrent(current === 0 ? length - 1 : current - 1);
   };
 
+  const myfunction = (index: number) => {
+    if (index === 0) {
+      const slider: any = sliderData.find((x) => x.index === 0);
+      return (
+        <div className="flex-container-0">
+          <div className="flexbox-item-1"></div>
+          <div className="flexbox-item-2">
+            <h3>{slider.meet}</h3>
+            <span>{slider.content}</span>
+          </div>
+        </div>
+      );
+    }
+    if (index === 1) {
+      const slider: any = sliderData.find((x) => x.index === 1);
+
+      return (
+        <div className="flex-container-1">
+          <div className="flexbox-item-1"></div>
+          <div className="flexbox-item-2">
+            <h3>{slider.meet}</h3>
+            <span>{slider.content}</span>
+          </div>
+        </div>
+      );
+    }
+  };
+
   return (
     <div className="slider">
       <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
-      <div className="inside-slider">
-        {sliderData.map((slider) => {
-          return (
-            <div
-              className={slider.index === current ? "slide-active" : "slide"}
-              key={slider.index}
-            >
-              {current === 0 && (
-                <div className="flex-container-0 inner">
-                  <div className="flexbox-item-1"></div>
-                  <div className="flexbox-item-2">
-                    <h3>{slider.meet}</h3>
-                    <span>{slider.content}</span>
-                  </div>
-                </div>
-              )}
-              {current === 1 && (
-                <div className="flex-container-1 inner">
-                  <div className="flexbox-item-1"></div>
-                  <div className="flexbox-item-2">
-                    <h3>{slider.meet}</h3>
-                    <span>{slider.content}</span>
-                  </div>
-                </div>
-              )}
-            </div>
-          );
-        })}
-      </div>
+      {myfunction(current)}
       <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
     </div>
   );

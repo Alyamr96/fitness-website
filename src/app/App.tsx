@@ -9,7 +9,7 @@ import Banner from "./components/banner/Banner";
 import Reviews from "./components/reviews/Reviews";
 import Blog from "./components/blogs/Blog";
 import Footer from "./components/footer/Footer";
-import Test1 from "./components/test/Test1";
+import Test from "./components/test/Test";
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
       <Banner />
       <Pricing />
   <Footer />*/}
-      <Test1 />
+      <Test />
     </div>
   );
 }

@@ -1,44 +1,18 @@
 .slider {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  height: 100vh;
 }
 
 .left-arrow {
-  position: absolute;
-  top: 50%;
-  left: 32px;
   color: #fff;
   font-size: 4rem;
-  z-index: 10;
-  cursor: pointer;
-  user-select: none;
 }
 
 .right-arrow {
-  position: absolute;
-  top: 50%;
-  right: 32px;
   color: #fff;
   font-size: 4rem;
-  z-index: 10;
-  cursor: pointer;
-  user-select: none;
-}
-
-.slide {
-  opacity: 0;
-  transition-duration: 1s ease;
-}
-
-.slide.active {
-  opacity: 1;
-  transition-duration: 1s;
-  transform: scale(1.08);
-}
-
-.inner {
-  position: absolute;
 }
 
 /* first client start */
@@ -80,7 +54,6 @@
 
 /* second client start */
 .flex-container-1 {
-  padding: 2rem;
   display: flex;
   justify-content: center;
 }
