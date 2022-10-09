@@ -1,4 +1,10 @@
-export const sliderData = [
+export type mySlider = {
+  index?: number;
+  meet?: string;
+  content?: string;
+};
+
+export const sliderData: mySlider[] = [
   {
     index: 0,
     meet: "meet, aly osman",

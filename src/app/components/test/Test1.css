@@ -8,29 +8,11 @@
 .left-arrow {
   color: #fff;
   font-size: 4rem;
-  border-style: solid;
-  border-color: #fff;
 }
 
 .right-arrow {
   color: #fff;
   font-size: 4rem;
-  border-style: solid;
-  border-color: #fff;
-}
-
-.inside-slider {
-  display: grid;
-}
-
-.slide,
-.active {
-  grid-column: 1;
-  grid-row: 1;
-}
-
-.inner {
-  margin-left: 10%;
 }
 
 .flex-container-0 {
@@ -69,7 +51,6 @@
 }
 
 .flex-container-1 {
-  padding: 2rem;
   display: flex;
   justify-content: center;
 }

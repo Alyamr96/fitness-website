@@ -26,7 +26,7 @@ export default function Test() {
         {sliderData.map((slider) => {
           return (
             <div
-              className={slider.index === current ? "slide active" : "slide"}
+              className={slider.index === current ? "slide-active" : "slide"}
               key={slider.index}
             >
               {current === 0 && (
