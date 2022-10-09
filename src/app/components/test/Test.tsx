@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from "react";
-import "./Test.css";
+import "./Test1.css";
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
 import { sliderData } from "./sliderData";
 
@@ -22,8 +22,7 @@ export default function Test() {
   return (
     <div className="slider">
       <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
-      <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
-      <div>
+      <div className="inside-slider">
         {sliderData.map((slider) => {
           return (
             <div
@@ -31,7 +30,7 @@ export default function Test() {
               key={slider.index}
             >
               {current === 0 && (
-                <div className="flex-container-0">
+                <div className="flex-container-0 inner">
                   <div className="flexbox-item-1"></div>
                   <div className="flexbox-item-2">
                     <h3>{slider.meet}</h3>
@@ -40,7 +39,7 @@ export default function Test() {
                 </div>
               )}
               {current === 1 && (
-                <div className="flex-container-1">
+                <div className="flex-container-1 inner">
                   <div className="flexbox-item-1"></div>
                   <div className="flexbox-item-2">
                     <h3>{slider.meet}</h3>
@@ -52,6 +51,7 @@ export default function Test() {
           );
         })}
       </div>
+      <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
     </div>
   );
 }
