@@ -10,12 +10,13 @@ import Reviews from "./components/reviews/Reviews";
 import Blog from "./components/blogs/Blog";
 import Footer from "./components/footer/Footer";
 import Test from "./components/test/Test";
+import Cover from "./components/cover/Cover";
 
 function App() {
   return (
     <div className="App">
       {/*<Header />
-      <Home />
+      <Test />
       <About />
       <Features />
       <Reviews />
@@ -23,7 +24,7 @@ function App() {
       <Banner />
       <Pricing />
   <Footer />*/}
-      <Test />
+      <Cover />
     </div>
   );
 }

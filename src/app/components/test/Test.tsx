@@ -49,9 +49,13 @@ export default function Test() {
 
   return (
     <div className="slider">
-      <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
+      {current != 0 && (
+        <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
+      )}
       {myfunction(current)}
-      <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
+      {current != 1 && (
+        <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
+      )}
     </div>
   );
 }

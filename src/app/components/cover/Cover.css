@@ -1,0 +1,40 @@
+.header {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .logo-slogan .icon {
+  width: 110rem;
+  height: 10rem;
+}
+
+.header .logo-slogan .icon .verified-icon {
+  height: 12rem;
+  width: 12rem;
+  float: right;
+}
+
+.header .logo-slogan .slogan {
+  border-style: solid;
+  border-color: white;
+  width: 105rem;
+}
+
+.header .logo-slogan .slogan span {
+  font-weight: bolder;
+  color: #fff;
+  font-size: 15rem;
+}
+
+.header .logo-slogan .slogan-content {
+  width: 105rem;
+}
+
+.header .logo-slogan .slogan-content span {
+  font-weight: bolder;
+  color: #87c1ff;
+  font-size: 5rem;
+  padding: 0 23%;
+}
