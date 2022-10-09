@@ -6,13 +6,15 @@
 }
 
 .left-arrow {
-  color: #fff;
+  color: #87c1ff;
   font-size: 4rem;
+  cursor: pointer;
 }
 
 .right-arrow {
-  color: #fff;
+  color: #87c1ff;
   font-size: 4rem;
+  cursor: pointer;
 }
 
 /* first client start */
