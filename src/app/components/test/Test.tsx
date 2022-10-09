@@ -1,18 +1,57 @@
-import React from "react";
+import React, { Fragment, useState } from "react";
 import "./Test.css";
+import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
+import { sliderData } from "./sliderData";
 
 export default function Test() {
+  const [current, setCurrent] = useState(0);
+  const length = sliderData.length;
+
+  if (!Array.isArray(sliderData) || length <= 0) {
+    return null;
+  }
+
+  const nextSlide = () => {
+    setCurrent(current === length - 1 ? 0 : current + 1);
+  };
+
+  const prevSlide = () => {
+    setCurrent(current === 0 ? length - 1 : current - 1);
+  };
+
   return (
-    <section className="home" id="home">
-      <div className="slide">
-        <div className="content">
-          <span>be strong, be fit</span>
-          <h3>Make yourself stronger than your excuses.</h3>
-          <a href="#" className="btn">
-            get started
-          </a>
-        </div>
+    <div className="slider">
+      <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
+      <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
+      <div>
+        {sliderData.map((slider) => {
+          return (
+            <div
+              className={slider.index === current ? "slide active" : "slide"}
+              key={slider.index}
+            >
+              {current === 0 && (
+                <div className="flex-container-0">
+                  <div className="flexbox-item-1"></div>
+                  <div className="flexbox-item-2">
+                    <h3>{slider.meet}</h3>
+                    <span>{slider.content}</span>
+                  </div>
+                </div>
+              )}
+              {current === 1 && (
+                <div className="flex-container-1">
+                  <div className="flexbox-item-1"></div>
+                  <div className="flexbox-item-2">
+                    <h3>{slider.meet}</h3>
+                    <span>{slider.content}</span>
+                  </div>
+                </div>
+              )}
+            </div>
+          );
+        })}
       </div>
-    </section>
+    </div>
   );
 }

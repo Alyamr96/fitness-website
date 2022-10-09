@@ -1,34 +1,114 @@
-.home {
-  padding: 0;
-  margin-top: 1rem;
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
-.home .slide {
-  min-height: 100vh;
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  color: #fff;
+  font-size: 4rem;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  color: #fff;
+  font-size: 4rem;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+
+/* first client start */
+.flex-container-0 {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container-0 .flexbox-item-1 {
+  height: 60vh;
+  width: 40vw;
+  background-repeat: no-repeat;
   background-size: 100% 100% !important;
   background-position: center !important;
-  padding: 2rem 9%;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  background-image: url(../../../images/alyosman-transformation.jpg);
+}
+
+.flex-container-0 .flexbox-item-2 {
+  height: 60vh;
+  width: 40vw;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: url(../../../images/transformations.jpg) no-repeat;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.home .slide .content {
-  width: 60rem;
-}
-
-.home .slide .content span {
-  font-size: 2rem;
-  color: #f00;
-  display: block;
-}
-
-.home .slide .content h3 {
+.flex-container-0 .flexbox-item-2 h3 {
   font-size: 5rem;
-  color: #fff;
-  padding: 1rem 0;
+  color: #87c1ff;
+  padding: 1rem 1rem;
 }
+
+.flex-container-0 .flexbox-item-2 span {
+  font-size: 2rem;
+  color: #fff;
+  display: block;
+  padding: 0 1rem;
+}
+/* first client end */
+
+/* second client start */
+.flex-container-1 {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container-1 .flexbox-item-1 {
+  height: 60vh;
+  width: 40vw;
+  background-repeat: no-repeat;
+  background-size: 100% 100% !important;
+  background-position: center !important;
+  background-image: url(../../../images/alyosman-transformation.jpg);
+}
+
+.flex-container-1 .flexbox-item-2 {
+  height: 60vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flex-container-1 .flexbox-item-2 h3 {
+  font-size: 5rem;
+  color: #87c1ff;
+  padding: 1rem 1rem;
+}
+
+.flex-container-1 .flexbox-item-2 span {
+  font-size: 2rem;
+  color: #fff;
+  display: block;
+  padding: 0 1rem;
+}
+/* second client end */
