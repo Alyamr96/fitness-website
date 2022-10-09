@@ -15,16 +15,15 @@ import Cover from "./components/cover/Cover";
 function App() {
   return (
     <div className="App">
-      {/*<Header />
-      <Test />
+      <Header />
+      <Cover />
       <About />
       <Features />
       <Reviews />
       <Blog />
       <Banner />
       <Pricing />
-  <Footer />*/}
-      <Cover />
+      <Footer />
     </div>
   );
 }
